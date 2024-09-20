@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Discover Travel</title>
+    <link rel="stylesheet" href="/siteos/catalogo/catalogo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <header class="encabezado">
+        <div class="encabezado__logo">
+            <img src="/img/logo.png" alt="Logo">
+        </div>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__item"><a href="/index.html" class="navegacion__enlace">Home</a></li>
+                <li class="navegacion__item"><a href="/siteos/catalogo/catalogo.html" class="navegacion__enlace">Catálogo</a></li>
+                <li class="navegacion__item navegacion__item--tours">
+                    <a href="#tours" class="navegacion__enlace">Tours</a>
+                    <ul class="navegacion__submenu">
+                        <li class="navegacion__submenu-item"><a href="#opcion1" class="navegacion__submenu-enlace">Opción 1</a></li>
+                        <li class="navegacion__submenu-item"><a href="#opcion2" class="navegacion__submenu-enlace">Opción 2</a></li>
+                    </ul>
+                </li>
+                <li class="navegacion__item"><a href="#descubrir-tienda" class="navegacion__enlace">Descubrir Tienda</a></li>
+                <li class="navegacion__item"><a href="#contacto" class="navegacion__enlace">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Texto decorado justo después del encabezado -->
+        <section class="intro-text">
+            <div class="decorative-line"></div> <!-- Línea decorativa -->
+            <h2>Nuestro catálogo de 2024</h2>
+            <p class="descripcion">
+                En Discover Travel, creemos que cada viaje es una historia por descubrir. Desde los desiertos misteriosos de San Pedro de Atacama hasta las vibrantes playas de Río de Janeiro, nuestros destinos están diseñados para ofrecerte experiencias inolvidables. Nuestro equipo de expertos ha seleccionado cuidadosamente cada lugar para que vivas una aventura auténtica y enriquecedora.
+            </p>
+        </section>
+
+        <!-- Imagen de ancho completo -->
+        <section class="full-width-image">
+            <img src="/img/catalogo/tutismo.jpg" alt="Imagen de viaje">
+        </section>
+
+        <!-- Segundo bloque de texto -->
+        <section class="second-text">
+            <p class="descripcion">
+                Déjate llevar por la magia de la Patagonia, maravíllate con la majestuosidad de Machu Picchu, o sumérgete en la exuberante belleza de la Amazonía. Cada rincón que exploramos tiene una historia única, y estamos aquí para ayudarte a escribir la tuya.
+            </p>
+        </section>
+
+        <!-- Cartas de destinos -->
+        <section class="catalogo">
+            <div class="cartas-centradas">
+                <div class="cartas">
+                    <div class="carta"><img src="/img/catalogo/SPA.jpg" alt="San Pedro de Atacama"><h3>San Pedro de Atacama</h3></div>
+                    <div class="carta"><img src="/img/catalogo/IDP.jpg" alt="Isla de Pascua"><h3>Isla de Pascua</h3></div>
+                    <div class="carta"><img src="/img/catalogo/PMTT.jpg" alt="Puerto Montt"><h3>Puerto Montt</h3></div>
+                    <div class="carta"><img src="/img/catalogo/PTGN.jpg" alt="Patagonia"><h3>Patagonia</h3></div>
+                    <div class="carta"><img src="/img/catalogo/ACNA.jpeg" alt="Araucanía"><h3>Araucanía</h3></div>
+                    <div class="carta"><img src="/img/catalogo/MCPC.avif" alt="Machu Picchu"><h3>Machu Picchu</h3></div>
+                    <div class="carta"><img src="/img/catalogo/SAL.jpg" alt="Salto Ángel"><h3>Salto Ángel</h3></div>
+                    <div class="carta"><img src="/img/catalogo/RDJ.jpg" alt="Río de Janeiro"><h3>Río de Janeiro</h3></div>
+                    <div class="carta"><img src="/img/catalogo/AMZN.webp" alt="Amazonas"><h3>Amazonas</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer (sin cambios) -->
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="/img/logo.png" alt="Logo de SLee Dw">
+                        </a>
+                    </figure>
+                </div>
+                <div class="fotbox">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p><i class="fa-brands fa-whatsapp"></i>+56 9 1111 1111</p>
+                    <p><i class="fa-solid fa-phone"></i>+56 9 5555 555</p>
+                    <p><i class="fa-regular fa-envelope"></i>discovertravel.soport@gmail.com</p>
+                    <p><i class="fa-solid fa-globe"></i>www.DiscoverTravel.cl</p>
+                </div>
+                <div class="fotbox">
+                    <h2>SÍGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa-brands fa-facebook"></a>
+                        <a href="https://www.instagram.com/ghemsqx1.7/" class="fa-brands fa-instagram instagram"></a>
+                        <a href="#" class="fa-brands fa-youtube youtube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>© Copyright <b>Discover Travel</b> 2024  - Desarrollo por MI</small>
+            </div>
+        </footer>
+    </main>
+
+    <script src="/siteos/catalogo/js.js"></script>
+</body>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/siteos/catalogo/js.js"></script>
+
+</html>
