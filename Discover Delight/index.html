@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Travel</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">     <!-- iconos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+
+                <!-- HD -->
+</head>
+<body>
+    <header class="encabezado">
+        <div class="encabezado__logo">
+            <img src="/img/logo.png" alt="Logo">
+        </div>
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__item"><a href="/index.html" class="navegacion__enlace">Home</a></li>
+                <li class="navegacion__item"><a href="/siteos/catalogo/catalogo.html" class="navegacion__enlace">Catálogo</a></li>
+                <li class="navegacion__item navegacion__item--tours">
+                    <a href="#tours" class="navegacion__enlace">Tours</a>
+                    <ul class="navegacion__submenu">
+                        <li class="navegacion__submenu-item"><a href="#opcion1" class="navegacion__submenu-enlace">Opción 1</a></li>
+                        <li class="navegacion__submenu-item"><a href="#opcion2" class="navegacion__submenu-enlace">Opción 2</a></li>
+                    </ul>
+                </li>
+                <li class="navegacion__item"><a href="#descubrir-tienda" class="navegacion__enlace">Descubrir Tienda</a></li>
+                <li class="navegacion__item"><a href="#contacto" class="navegacion__enlace">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    
+                <!-- banner -->
+    <main>
+        <section class="seccion-video">
+            <video id="video-fondo" autoplay loop>
+                <source src="/videos/vdhd.mp4" type="video/mp4">
+            </video>
+            <div class="controles-video">
+                <i id="icono-volumen" class="fa-solid fa-volume-high"></i>
+            </div>
+        </section>
+        <section class="seccion-texto">
+            <h1>Viajes de calidad y seguridad.</h1>
+            <p>En Discover Travel no solo formamos una gran familia de aventureros, sino también una comunidad unida por la pasión de descubrir el mundo de una forma única y especial.</p>
+        </section>
+        <section class="seccion-fotos">
+            <img src="/img/banner1.jpg" alt="Foto 1" class="foto">
+
+            <div class="Tex-des">
+
+        <!-- Texto debajo del video -->
+        <section class="seccion-descubre">
+            <h2>DESCUBRE NUESTRA DIFERENCIA</h2>
+            <p>Discover Travel es una gran familia, hemos dado la vuelta al mundo más de 20 veces y esto nos ha permitido perfeccionar el arte de ofrecer un servicio excepcional. Nos especializamos en organizar viajes grupales de Experiencia Premium All Inclusive, la exploración relajada y el disfrute de cada destino a un ritmo propio y especial. Somos una agencia de viajes de alta gama con un espíritu simple y auténtico. Únete a nosotros y descubre un mundo de posibilidades.</p>
+        </section>
+
+        <!-- Imagen con botón centrado -->
+        <section class="seccion-catalogo">
+            <img src="/img/esahora.png" alt="Catálogo" class="catalogo-imagen">
+            <div class="catalogo-boton">
+                <button onclick="window.location.href='/siteos/catalogo/catalogo.html'">Revisa nuestro catálogo 2024</button>
+            </div>
+            <!-- Cartas dinámicas -->
+            <div class="cartas">
+                <div class="carta" onclick="window.location.href='/siteos/catalogo/catalogo.html'">
+                    <img src="/img/cards hm/card1.jpg" alt="Carta 1">
+                    <div class="carta-contenido">
+                        <h3>Salto Angel</h3>
+                    </div>
+                </div>
+                <div class="carta" onclick="window.location.href='/siteos/catalogo/catalogo.html'">
+                    <img src="/img/cards hm/card2.jpg" alt="Carta 2">
+                    <div class="carta-contenido">
+                        <h3>San pedro de Atacama</h3>
+                    </div>
+                </div>
+                <div class="carta" onclick="window.location.href='/siteos/catalogo/catalogo.html'">
+                    <img src="/img/cards hm/card3.jpg" alt="Carta 3">
+                    <div class="carta-contenido">
+                        <h3>Rapa Nui</h3>
+                    </div>
+                </div>
+                <div class="carta" onclick="window.location.href='/siteos/catalogo/catalogo.html'">
+                    <img src="/img/cards hm/card4.jpeg" alt="Carta 4">
+                    <div class="carta-contenido">
+                        <h3>Rio De Janeiro</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            <!-- FOT -->
+
+        <!--suscripción -->
+        <section class="suscripcion">
+            <h2>¡Recibe en tu correo todas nuestras novedades, nuevos viajes y ofertas especiales!</h2>
+            <form id="form-suscripcion" class="suscripcion__formulario">
+                <input type="text" placeholder="Nombre" class="suscripcion__input" id="nombre-suscripcion">
+                <input type="text" placeholder="Género" class="suscripcion__input" id="genero-suscripcion">
+                <input type="email" placeholder="Correo electrónico" class="suscripcion__input" id="correo-suscripcion">
+                <button type="submit" class="suscripcion__boton">¡Suscribirme!</button>
+            </form>
+        </section>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="/img/logo.png" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="fotbox">
+                <h2>SOBRE NOSOTROS</h2>
+
+                <p><i class="fa-brands fa-whatsapp"></i>+56 9 1111 2222</p>
+
+                <p><p><i class="fa-solid fa-phone"></i>+56 9 5555 555</p>
+
+                <p><i class="fa-regular fa-envelope"></i>discovertravel.soport@gmail.com</p>
+
+                <p><i class="fa-solid fa-globe"></i>www.DiscoverTravel.cl</p>    
+ 
+
+            </div>
+            <div class="fotbox">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa-brands fa-facebook"></a>
+                    <a href="https://www.instagram.com/ghemsqx1.7/" class="fa-brands fa-instagram instagram"></a>
+                    <a href="#" class="fa-brands fa-youtube youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>© Copyright <b>Discover Travel</b> 2024  - Desarrollo por MI</small>
+        </div>
+    </footer>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
